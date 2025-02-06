@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1> Muhammad Maiez </h1>
+            <p>Email: <a href="mailto:muhmmadmaiez31@gmail.com">muhmmadmaiez31@gmail.com</a></p>
+            <p>Web Developer</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('bio')">Bio</a></li>
+                <li><a href="#" onclick="showSection('experience')">Experience</a></li>
+                <li><a href="#" onclick="showSection('skills')">Skills</a></li>
+                <li><a href="#" onclick="showSection('education')">Education</a></li>
+            </ul>
+        </nav>
+
+        <section id="bio" class="resume-section">
+            <h2>Bio</h2>
+            <p>Computer science student. learning web 3.0</p>
+        </section>
+
+        <section id="experience" class="resume-section">
+            <h2>Experience</h2>
+            <ul>
+                <li>
+                    <h3>Web Developer</h3>
+                    <p>Worked on full-stack web development, including backend integrations and front-end development.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="skills" class="resume-section">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript, typescript</li>
+            </ul>
+        </section>
+
+        <section id="education" class="resume-section">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <h3>Karachi</h3>
+                    <p>Student of intermediate in computer science</p>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
